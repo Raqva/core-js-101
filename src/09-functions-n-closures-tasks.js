@@ -1,8 +1,8 @@
 function getComposition() {
   throw new Error('Not implemented');
 }
-function getPowerFunction() {
-  throw new Error('Not implemented');
+function getPowerFunction(x) {
+  return function (y) { return y ** x;}
 }
 function getPolynom() {
   throw new Error('Not implemented');
