@@ -19,7 +19,7 @@ function logger() {
 function partialUsingArguments() {
   throw new Error('Not implemented');
 }
-function getIdGeneratorFunction(startFrom) {
+function getIdGeneratorFunction() {
   throw new Error('Not implemented');
 }
 module.exports = {
