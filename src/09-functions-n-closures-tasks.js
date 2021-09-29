@@ -2,7 +2,7 @@ function getComposition() {
   throw new Error('Not implemented');
 }
 function getPowerFunction(x) {
-  return function (y) { return y ** x; };
+  return function getResult(y) { return y ** x; };
 }
 function getPolynom() {
   throw new Error('Not implemented');
