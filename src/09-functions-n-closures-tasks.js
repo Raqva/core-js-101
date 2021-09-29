@@ -20,11 +20,7 @@ function partialUsingArguments() {
   throw new Error('Not implemented');
 }
 function getIdGeneratorFunction(startFrom) {
-  return function counter(){
-    let start = startFrom;
-    startFrom +=1;
-    return start;
-  }
+  throw new Error('Not implemented');
 }
 module.exports = {
   getComposition,
