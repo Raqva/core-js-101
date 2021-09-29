@@ -19,8 +19,12 @@ function logger() {
 function partialUsingArguments() {
   throw new Error('Not implemented');
 }
-function getIdGeneratorFunction() {
-  throw new Error('Not implemented');
+function getIdGeneratorFunction(startFrom) {
+  return function counter(){
+    let start = startFrom;
+    startFrom +=1;
+    return start;
+  }
 }
 module.exports = {
   getComposition,
